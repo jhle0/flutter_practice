@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(App());
+}
+
+class App extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Hello flutter!'),
+          backgroundColor: Color.fromRGBO(23, 134, 2, 100),
+        ),
+        body: Center(
+          child: Text('Hello world!'),
+        ),
+      ),
+    );
+  }
+}
